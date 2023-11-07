@@ -2,5 +2,6 @@
 *.exe
 *.pdf
 *.txt
+*.code-workspace
 PROG 2 Teoria/
 .vscode/
