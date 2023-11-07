@@ -1,5 +1,6 @@
-.json
-.exe
-.pdf
+*.json
+*.exe
+*.pdf
+*.txt
 PROG 2 Teoria/
 .vscode/
