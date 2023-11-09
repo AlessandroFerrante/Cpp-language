@@ -1,4 +1,4 @@
-'/*
+/*
  author Alessandro Ferrante
  * constructor_parameters_example.cpp
 */
