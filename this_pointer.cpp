@@ -130,6 +130,6 @@ int main(int argc, char ** argv){
 
     // ? Set the new dimensions of the rectangle 1
     my_rect_1.set_dimension(3, 4);
-    cout << "Nuove dimensioni impostate per il rect 1 (" << my_rect_1.get_b() << " x " << my_rect_1.get_h() <<")" << endl;
+    cout << "New size set for rect 1 (" << my_rect_1.get_b() << " x " << my_rect_1.get_h() <<")" << endl;
     cout << "Perimeter of rect 1 = " << my_rect_1.compute_perimeter() << endl;
 }
