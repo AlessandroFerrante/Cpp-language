@@ -24,15 +24,16 @@ class Rectangle{
         float b, h;
     public: 
         // constructor
-        Rectangle(float _b, float _h);
-            // copy constructor
-            Rectangle(const Rectangle & r);
-            // default constructor
-            Rectangle();
-        // destructor
-        ~Rectangle(){
-            cout << "Rect destructor" << endl;
+        Rectangle (float _b, float _h){
+            b = _b;
+            h = _h;
         }
+            // copy constructor
+            Rectangle (const Rectangle & r) : Rectangle(r.b, r.h){}
+            // default constructor
+            Rectangle() : Rectangle(0, 0){}
+        // destrcutor
+        ~Rectangle(){}
 
         //methods
 
@@ -58,7 +59,7 @@ class Rectangle{
             return (b + h) * 2;
         };
 };
-
+/**
 // | Rectangle constructor
 // ? Initialize member variables b and h with the provided values
 Rectangle::Rectangle(float _b, float _h) : b(_b), h(_h){
@@ -76,6 +77,7 @@ Rectangle::Rectangle(const Rectangle & r) : Rectangle(r.b, r.h){
 Rectangle::Rectangle() : Rectangle(0, 0){
     cout << "Default constructor " << endl;
 }
+*/
 
 // child class, inherits from the rectangle class
 class Square : public Rectangle{
