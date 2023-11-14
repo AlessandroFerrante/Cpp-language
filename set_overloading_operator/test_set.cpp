@@ -2,8 +2,8 @@
  author Alessandro Ferrante
  * test_set.cpp
 */
-/*
- | Il file contiene solo l'instanziazione degli oggetti SetDuplicates e Set.
+/* 
+ | The file contains only the instantiation of the SetDuplicates and Set objects.
  *
  ? The example implements the redemption of the set, union and difference operators,
  ? the addition and subtraction operators and the element access operator via index.
