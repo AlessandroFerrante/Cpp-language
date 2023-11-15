@@ -40,8 +40,8 @@ int main(int argc, char ** argv){
     try{
         while (true){
             cout << s[i] << endl;
-            i++;    // ? Incrementa l'indice per accedere al prossimo elemento, causando un Overflow
-          //i--;    // ? Se decrementa l'indice si causerebbe un Underflow;
+            i++;     // ? Increments the index and causes an overflow
+            //i--;   // ? Decrements the index and causes an underflow;
         }
     }
     // ? Catch any access_error exceptions
