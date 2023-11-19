@@ -71,7 +71,7 @@ class SetDuplicates{
 
         // methods  
         
-        virtual void add(int elem); // ? Pure 'virtual' method to add an element to the set
+        virtual void add(int elem); // ? 'Virtual' method to add an element to the set
         bool remove(int elem); // ? To remove a set element
         bool find(int elem); // ? To search for an element of the set
 
