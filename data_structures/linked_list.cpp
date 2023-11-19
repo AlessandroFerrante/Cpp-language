@@ -16,9 +16,10 @@ using namespace std;
 
 class Node {
     private: 
+        // attributes
         string element;
     public: 
-        // attributes
+        // constructor
         Node(string e) : element(e) { };
 
         // method get
@@ -31,9 +32,14 @@ class Node {
 typedef Node* List; // ? creates a pointer of type class Node, pointer to list, to first node
 
 void insert(List & l, string data){
-    Node * new_node = new Node(data); // allocazzione e 
-    new_node -> next = l; // attach the new node pointer to the list
-    l = new_node; // pointer to list = new node
+    // element allocation
+    Node * new_node = new Node(data); 
+
+    // attach the new node pointer to the list
+    new_node -> next = l; 
+
+    // pointer to list = new node
+    l = new_node;
 }
 
 void delete_first(List & l){
