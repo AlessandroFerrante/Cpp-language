@@ -26,6 +26,15 @@ This repository is dedicated to the collection of code created for the study of 
 21. [Implementation of a Set of Elements with Exception Handling](https://github.com/AlessandroFerrante/Cpp-language/tree/main/set_error_handling)
 22. [Implementation of a Set of Elements with Exception Handling (Using the exception Class)](https://github.com/AlessandroFerrante/Cpp-language/tree/main/set_error_handling)
 23. [Template](https://github.com/AlessandroFerrante/Cpp-language/tree/main/template)
+24. [Counter Example](https://github.com/AlessandroFerrante/Cpp-language/tree/main/counter)
+25. [std::string class](https://github.com/AlessandroFerrante/Cpp-language/blob/main/string_vector_map_classes/string.cpp)
+26. [std::vector class](https://github.com/AlessandroFerrante/Cpp-language/blob/main/string_vector_map_classes/vector.cpp)
+27. [std::map class](https://github.com/AlessandroFerrante/Cpp-language/blob/main/string_vector_map_classes/map.cpp)
+28. [std::vector class with iterators](https://github.com/AlessandroFerrante/Cpp-language/blob/main/string_vector_map_classes/vector_iterators.cpp)
+29. [std::map class with iterators](https://github.com/AlessandroFerrante/Cpp-language/blob/main/string_vector_map_classes/map_iterators.cpp)
+30. [Simply linked list](https://github.com/AlessandroFerrante/Cpp-language/blob/main/data_structures/linked_list.cpp)
+31. [Simply linked list with dummy node](https://github.com/AlessandroFerrante/Cpp-language/blob/main/data_structures/list_dummy_node.cpp)
+32. [Simply linked list with class and methods](https://github.com/AlessandroFerrante/Cpp-language/blob/main/data_structures/linked_list_C%2B%2B.cpp)
 
  > This repository is continuously being updated with new content and resources. Currently, I am working on adding additional examples related to C++. Stay tuned for more updates!
 
