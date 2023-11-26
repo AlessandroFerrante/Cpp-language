@@ -32,9 +32,17 @@ This repository is dedicated to the collection of code created for the study of 
 27. [std::map class](https://github.com/AlessandroFerrante/Cpp-language/blob/main/string_vector_map_classes/map.cpp)
 28. [std::vector class with iterators](https://github.com/AlessandroFerrante/Cpp-language/blob/main/string_vector_map_classes/vector_iterators.cpp)
 29. [std::map class with iterators](https://github.com/AlessandroFerrante/Cpp-language/blob/main/string_vector_map_classes/map_iterators.cpp)
-30. [Simply linked list](https://github.com/AlessandroFerrante/Cpp-language/blob/main/data_structures/linked_list.cpp)
-31. [Simply linked list with dummy node](https://github.com/AlessandroFerrante/Cpp-language/blob/main/data_structures/list_dummy_node.cpp)
-32. [Simply linked list with class and methods](https://github.com/AlessandroFerrante/Cpp-language/blob/main/data_structures/linked_list_C%2B%2B.cpp)
+30. [Simply linked list]()
+31. [Simply linked list with dummy node]()
+32. [Simply linked list with class and methods]()
+33. [Simply linked list with template]()
+34. [Stack with template]()
+35. [Queue with template]()
+36. [Bubble sort with template]()
+37. [Efficient bubble sort with template]()
+38. [Select sort with template]()
+39. [Insert sort with template]()
+40. [Quick sort with template]() 
 
  > This repository is continuously being updated with new content and resources. Currently, I am working on adding additional examples related to C++. Stay tuned for more updates!
 
