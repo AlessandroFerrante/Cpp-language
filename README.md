@@ -32,9 +32,17 @@ This repository is dedicated to the collection of code created for the study of 
 27. [std::map class](https://github.com/AlessandroFerrante/Cpp-language/blob/main/string_vector_map_classes/map.cpp)
 28. [std::vector class with iterators](https://github.com/AlessandroFerrante/Cpp-language/blob/main/string_vector_map_classes/vector_iterators.cpp)
 29. [std::map class with iterators](https://github.com/AlessandroFerrante/Cpp-language/blob/main/string_vector_map_classes/map_iterators.cpp)
-30. [Simply linked list](https://github.com/AlessandroFerrante/Cpp-language/blob/main/data_structures/linked_list.cpp)
-31. [Simply linked list with dummy node](https://github.com/AlessandroFerrante/Cpp-language/blob/main/data_structures/list_dummy_node.cpp)
-32. [Simply linked list with class and methods](https://github.com/AlessandroFerrante/Cpp-language/blob/main/data_structures/linked_list_C%2B%2B.cpp)
+30. [Simply linked list](https://github.com/AlessandroFerrante/Cpp-language/blob/main/data_structures/list/linked_list.cpp)
+31. [Simply linked list with dummy node](https://github.com/AlessandroFerrante/Cpp-language/blob/main/data_structures/list/list_dummy_node.cpp)
+32. [Simply linked list with class and methods](https://github.com/AlessandroFerrante/Cpp-language/blob/main/data_structures/list/linked_list_C%2B%2B.cpp)
+33. [Simply linked list with template](https://github.com/AlessandroFerrante/Cpp-language/tree/main/data_structures/list_template)
+34. [Stack with template](https://github.com/AlessandroFerrante/Cpp-language/tree/main/data_structures/stack_template)
+35. [Queue with template](https://github.com/AlessandroFerrante/Cpp-language/tree/main/data_structures/queue_template)
+36. [Bubble sort with template](https://github.com/AlessandroFerrante/Cpp-language/blob/main/sorting_algorithms/bubblesort.cpp)
+37. [Efficient bubble sort with template](https://github.com/AlessandroFerrante/Cpp-language/blob/main/sorting_algorithms/efficient_bubblesort.cpp)
+38. [Select sort with template](https://github.com/AlessandroFerrante/Cpp-language/blob/main/sorting_algorithms/selectsort.cpp)
+39. [Insert sort with template](https://github.com/AlessandroFerrante/Cpp-language/blob/main/sorting_algorithms/insertsort.cpp)
+40. [Quick sort with template](https://github.com/AlessandroFerrante/Cpp-language/blob/main/sorting_algorithms/quicksort.cpp) 
 
  > This repository is continuously being updated with new content and resources. Currently, I am working on adding additional examples related to C++. Stay tuned for more updates!
 
