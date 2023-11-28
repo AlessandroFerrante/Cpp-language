@@ -42,7 +42,8 @@ This repository is dedicated to the collection of code created for the study of 
 37. [Efficient bubble sort with template](https://github.com/AlessandroFerrante/Cpp-language/blob/main/sorting_algorithms/efficient_bubblesort.cpp)
 38. [Select sort with template](https://github.com/AlessandroFerrante/Cpp-language/blob/main/sorting_algorithms/selectsort.cpp)
 39. [Insert sort with template](https://github.com/AlessandroFerrante/Cpp-language/blob/main/sorting_algorithms/insertsort.cpp)
-40. [Quick sort with template](https://github.com/AlessandroFerrante/Cpp-language/blob/main/sorting_algorithms/quicksort.cpp) 
+40. [Quick sort with template](https://github.com/AlessandroFerrante/Cpp-language/blob/main/sorting_algorithms/quicksort.cpp)
+41. [Merge sort with template](https://github.com/AlessandroFerrante/Cpp-language/blob/main/sorting_algorithms/mergesort.cpp) 
 
  > This repository is continuously being updated with new content and resources. Currently, I am working on adding additional examples related to C++. Stay tuned for more updates!
 
