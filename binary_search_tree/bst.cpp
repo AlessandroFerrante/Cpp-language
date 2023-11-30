@@ -39,7 +39,7 @@
     ? Scroll through the tree to find the searched value
  - The find_max function
     ? Scrolls all the way down the right subtree to the last leaf to look for the maximum value
- - The find_in function
+ - The find_min function
     ? Scrolls down the entire left subtree to the last leaf to look for the minimum value  
 */
 
@@ -171,6 +171,7 @@ void bst_delete (tree root, int value) {
     }
 }
 
+// - search for value
 bool bst_find (tree root, int value) {
     tree current = root;
     // ? scroll the tree
@@ -191,13 +192,14 @@ bool bst_find (tree root, int value) {
     return false;
 }
 
-// ? scroll through the entire left subtree
+// - search for max, scroll through the entire left subtree
 const int find_max(tree current) {
     while (current->right != nullptr)
         current = current->right;
     return current->value;
 }
-// ? scroll through the entire right subtree
+
+// - search for min, scroll through the entire right subtree
 const int find_min(tree current) {
     while (current->left != nullptr)
         current = current->left;
@@ -274,12 +276,13 @@ int main(int agc, char ** argv){
     cin >> v;
     
     if(bst_find(mybst, v))
-        cout << "Valore trovato" << endl;
+        cout << "Value found" << endl;
     else
-        cout << "Valore non trovato" << endl;
+        cout << "Value not found" << endl;
     
 
     cout << "Max is: " << find_max(mybst) << endl;
     cout << "Min is: " << find_min(mybst) << endl;
+    
     return 0;
 }
