@@ -61,7 +61,7 @@ using tree = node * ; // tree_ptr
 
 // - recursive insertion
 void bst_insert(tree & root, int value){
-    // ? se l'albero è vuoto o appena trova il nodo vuoto
+    // ? if the tree is empty or as soon as it finds the empty node
     if(root == nullptr) {
         root = new node;
         root->value = value;
@@ -120,16 +120,16 @@ void bst_delete(tree& root, int value){
             root = current;
             return;
         }
-        
-        // ? successor search
-        tree successor = _successor(root->right); // todo successor function
-        
-        // - replace the value to be deleted with that of the successor
-        root->value = successor->value;
-        
-        // ? deallocate the successor
-        delete successor;
-        return;
+        // ? if it has only both left and right children
+        if(root->left != nullptr && root->right != nullptr){
+            // ? successor search
+            tree successor = _successor(root->right);
+            // ? replace the value to be deleted with that of the successor
+            root->value = successor->value;
+            // ? deallocate the successor
+            delete successor;
+            return;
+        }
     }
     else {
         // ? recursive calls to search in the correct subtree  
