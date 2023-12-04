@@ -45,7 +45,11 @@ This repository is dedicated to the collection of code created for the study of 
 40. [Quick sort with template](https://github.com/AlessandroFerrante/Cpp-language/blob/main/sorting_algorithms/quicksort.cpp)
 41. [Merge sort with template](https://github.com/AlessandroFerrante/Cpp-language/blob/main/sorting_algorithms/mergesort.cpp)
 42. [Simple binary search tree](https://github.com/AlessandroFerrante/Cpp-language/blob/main/binary_search_tree/bst.cpp)
-
+43. [Recursive binary search tree](https://github.com/AlessandroFerrante/Cpp-language/blob/main/binary_search_tree/bst_recursive.cpp)
+44. [Recursive binary search with template](https://github.com/AlessandroFerrante/Cpp-language/blob/main/binary_search_tree/generic_recursive_bst.cpp)
+45. [Recursive binary search with class](https://github.com/AlessandroFerrante/Cpp-language/blob/main/binary_search_tree/bst_class.cpp)
+46. [Generic recursive binary search tree with class and methods](https://github.com/AlessandroFerrante/Cpp-language/blob/main/binary_search_tree/generic_bst_class.cpp)
+    
  > This repository is continuously being updated with new content and resources. Currently, I am working on adding additional examples related to C++. Stay tuned for more updates!
 
 
