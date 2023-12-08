@@ -4,6 +4,10 @@
 */
 
 #include <iostream>
+#include <cstdlib>
+#include <random>
+#include <ctime>
+#define N 10
 
 using namespace std;
 
@@ -67,7 +71,45 @@ template <typename T > class node{
                     internal_insert(root->right, data);
             }
         }
+        node<T>* internal_successor(node<T> *& root){
+            if(root->left == nullptr){
+                node<T>* successor = root;
+                root = root->right;
+                return successor;
+            }
+            else{
+                return internal_successor(root->left);
+            }
+        }
 
+        void internal_delete(node<T> *& root, T & data){
+            if(root == nullptr) 
+                return;
+            if(root->data->get_area() == data){
+                if(root->left == nullptr && root->right == nullptr){
+                    delete root;
+                    return;
+                }
+                if(root->right == nullptr){
+                    node<T>* current = root;
+                    root = root->left;
+                    delete current;
+                    return; 
+                }
+                if(root->left == nullptr){
+                    node<T>* current = root;
+                    root = root->right;
+                    delete current;
+                    return;
+                }
+                if(root->right != nullptr && root->left != nullptr) {
+                    node<T>* successor = internal_successor(root->right);
+                    root->data = successor->data;
+                    delete successor;
+                    return;
+                }
+            }
+        }
         /*
         friend ostream& operator<<(ostream& out, node<T> *& n){
             out << endl;
@@ -96,11 +138,13 @@ template <typename T > class node{
 };
 
 int main(int argc, char ** argv){
-    
+    srand(time(NULL));
+
     node<Rectangle*> rect;
     node<Circle*> circles;
     node<Triangle*> triangles;
     
+    /*
     int c = 0;
     while(c != 3){
         cout << "Enter \n 0 - to create rectangles \n 1 - to create circles \n 2 - to create triangles \n 3 - to end" << endl;
@@ -145,10 +189,25 @@ int main(int argc, char ** argv){
                 cout << "Invalid choice" << endl;
         }
     }
+    */
+    mt19937 gen(time(NULL));
+    uniform_real_distribution<double> d(1.0, 10.0);
+    uniform_real_distribution<double> c(1.0, 10.0);
+
+   for(int i = 0; i < N; i++){
+    rect.insert(new Rectangle(d(gen), d(gen)));
+    circles.insert(new Circle(c(gen)));
+    triangles.insert(new Triangle(d(gen), d(gen)));
+   }
+    
+    cout << "Rectangles" << endl;
     rect.visit_in_order();
+
+    cout << "Circles" << endl;
     circles.visit_in_order();
+
+    cout << "Triangles" << endl;
     triangles.visit_in_order();
     
-
     return 0;
 }
