@@ -5,3 +5,10 @@
 *.code-workspace
 PROG 2 Teoria/
 .vscode/
+.idea/
+runConfigurations/
+*.xml
+*.iml
+*.js
+
+tracking folllowers with binary search trees
